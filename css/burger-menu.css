@@ -7,12 +7,12 @@
 
 	.header__burger {
 		display : block;
-		width   : 30px;
-		height  : 20px;
+		width   : 40px;
+		height  : 30px;
 		position: absolute;
-		left    : 40px;
+		left    : 50px;
 		top     : 40%;
-		z-index : 50;
+		z-index : 60;
 	}
 
 	.header__burger:before,
@@ -21,11 +21,11 @@
 		background: #fff;
 		position  : absolute;
 		width     : 100%;
-		height    : 2px;
-		right     : 10px;
-		bottom    : 25px;
+		height    : 4px;
+		right     : 20px;
+		bottom    : 35px;
 		transition: all 0.3s ease 0s;
-		z-index   : 50;
+		z-index   : 60;
 	}
 
 	.header__burger:before {
@@ -38,11 +38,11 @@
 
 	.header__burger span {
 		position  : absolute;
-		background: #fff;
+		background: rgb(255, 255, 255);
 		right     : 10px;
 		width     : 100%;
-		height    : 2px;
-		top       : 9px;
+		height    : 3px;
+		top       : 10px;
 		transition: all 0.3s ease 0s;
 	}
 
@@ -60,7 +60,7 @@
 	}
 
 	.header__nav.active {
-		top: 0;
+		top: 1;
 	}
 
 	.nav__list {

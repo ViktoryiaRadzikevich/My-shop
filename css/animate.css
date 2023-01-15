@@ -15,15 +15,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 */
 
 .animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
 
 .animated.hinge {
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
 }
 
 @-webkit-keyframes bounce {
@@ -70,21 +70,21 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 @-webkit-keyframes flash {
   0%, 50%, 100% {
-    opacity: 1;
+    opacity: 2;
   }
 
   25%, 75% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 
 @keyframes flash {
   0%, 50%, 100% {
-    opacity: 1;
+    opacity: 2;
   }
 
   25%, 75% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 
@@ -400,13 +400,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 @-webkit-keyframes bounceIn {
   0% {
-    opacity: 0;
+    opacity: 1;
     -webkit-transform: scale(.3);
     transform: scale(.3);
   }
 
   50% {
-    opacity: 1;
+    opacity: 2;
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
   }
@@ -424,14 +424,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 @keyframes bounceIn {
   0% {
-    opacity: 0;
+    opacity: 1;
     -webkit-transform: scale(.3);
     -ms-transform: scale(.3);
     transform: scale(.3);
   }
 
   50% {
-    opacity: 1;
+    opacity: 2;
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
@@ -457,13 +457,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 @-webkit-keyframes bounceInDown {
   0% {
-    opacity: 0;
+    opacity: 1;
     -webkit-transform: translateY(-2000px);
     transform: translateY(-2000px);
   }
 
   60% {
-    opacity: 1;
+    opacity: 2;
     -webkit-transform: translateY(30px);
     transform: translateY(30px);
   }
@@ -481,14 +481,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 @keyframes bounceInDown {
   0% {
-    opacity: 0;
+    opacity: 1;
     -webkit-transform: translateY(-2000px);
     -ms-transform: translateY(-2000px);
     transform: translateY(-2000px);
   }
 
   60% {
-    opacity: 1;
+    opacity: 2;
     -webkit-transform: translateY(30px);
     -ms-transform: translateY(30px);
     transform: translateY(30px);

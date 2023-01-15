@@ -3,17 +3,17 @@
 }
 
 .cart-content__list::-webkit-scrollbar {
-    width : 6px;
+    width : 8px;
     height: auto;
 }
 
 .cart-content__list::-webkit-scrollbar-thumb {
-    background: #0080ff;
+    background: #0011ff;
     border    : 0px none #ffffff;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #bdbbbb), color-stop(1.00, #777));
-    background: -webkit-linear-gradient(#bdbbbb, #777);
-    background: -moz-linear-gradient(#bdbbbb, #777);
-    background: -o-linear-gradient(#bdbbbb, #777);
+    background: -webkit-linear-gradient(#867f7f, rgb(55, 52, 52));
+    background: -moz-linear-gradient(#908d8d, #777);
+    background: -o-linear-gradient(#bdbbbb, rgb(73, 73, 73));
     background: -ms-linear-gradient(#bdbbbb, #777);
     background: linear-gradient(#bdbbbb, #777);
 }
