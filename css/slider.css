@@ -2,14 +2,14 @@
 
 .card {
     display   : flex;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .card-slider {
-    width       : 592px;
-    height      : 490px;
-    margin-right: 60px;
+    width       : 595px;
+    height      : 480px;
+    margin-right: 50px;
     display     : flex;
 }
 
@@ -19,24 +19,24 @@
 }
 
 .slider-nav {
-    width       : 82px;
-    margin-right: 20px;
+    width       : 80px;
+    margin-right: 25px;
 }
 
 .slider-nav__item {
-    height          : 82px;
+    height          : 85px;
     width           : 100%;
     background-color: #fff;
     display         : flex;
     align-items     : center;
     justify-content : center;
-    border          : 1px solid #D9D9D9;
-    border-radius   : 4px;
+    border          : 2px solid #D9D9D9;
+    border-radius   : 5px;
     cursor          : pointer;
 }
 
 .slider-nav__item:not(:last-child) {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .slider-nav__item img {
@@ -48,8 +48,8 @@
     overflow        : hidden;
     width           : calc(100% - 82px - 20px);
     background-color: #fff;
-    border          : 1px solid #D9D9D9;
-    border-radius   : 4px;
+    border          : 2px solid #D9D9D9;
+    border-radius   : 5px;
 }
 
 .swiper-slide {
@@ -68,11 +68,11 @@
 
 .vendor {
     display      : inline-block;
-    font-weight  : 400;
-    font-size    : 14px;
-    line-height  : 19px;
+    font-weight  : 500;
+    font-size    : 15px;
+    line-height  : 20px;
     color        : #808080;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .title {
@@ -95,8 +95,8 @@
     font-weight  : 500;
     font-size    : 14px;
     line-height  : 19px;
-    color        : #5D71DD;
-    border-bottom: 1px solid #5D71DD;
+    color        : #dd5dd5;
+    border-bottom: 1px solid #dd5dce;
 }
 
 .rating {
@@ -147,7 +147,7 @@
     line-height     : 20px;
     text-align      : center;
     color           : #FFFFFF;
-    background-color: #5D71DD;
+    background-color: #ae5ddd;
     width           : 100%;
     height          : 45px;
     border-radius   : 4px;
